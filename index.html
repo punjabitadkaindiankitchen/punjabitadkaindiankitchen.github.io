@@ -1957,7 +1957,7 @@ html.pt-has-cursor .menu-tab, html.pt-has-cursor .menu-search-clear{cursor:point
     <div class="about-layout">
       <div class="about-visual rev">
         <div class="about-photo">
-          <img loading="lazy" decoding="async" src="about-spread.webp" alt="Punjabi Tadka food spread — copper pot buffet">
+          <img loading="lazy" decoding="async" src="food-spread.jpg" alt="Aromatic chicken biryani in a traditional clay pot at Punjabi Tadka Indian Kitchen">
           <div class="about-photo-caption"><p>&ldquo;Authentic Punjabi flavours, made fresh every day&rdquo;</p></div>
         </div>
         <div class="about-badge"><div class="badge-num">30+</div><div class="badge-txt">Years of<br>Heritage</div></div>
@@ -2497,43 +2497,45 @@ function handleForm(e){
     bd.addEventListener('click', function(e){ if (e.target === bd) close(); });
     document.addEventListener('keydown', function(e){ if (e.key==='Escape' && bd.classList.contains('open')) close(); });
 
+    // CHEF-PICKS:START — generated from menu.json by scripts/build_menu.py (do not hand-edit; run: python scripts/build_menu.py)
     var picks = {
-      'comforting': [
-        {n:'Dal Makhani', p:'$15.99', w:'Slow-simmered black lentils — buttery, deep, warming.'},
-        {n:'Butter Chicken', p:'$19.99', w:'The classic — creamy, tomatoey, gently spiced.'},
-        {n:'Veg Thali', p:'$15.99', w:'A complete hug on a plate.'}
+      "comforting": [
+        {"n": "Dal Makhani", "p": "$17.99", "w": "Slow-simmered black lentils, finished with butter and cream — pure comfort."},
+        {"n": "Butter Chicken", "p": "$18.99", "w": "Our most-loved curry: boneless chicken in a silky tomato-cream gravy."},
+        {"n": "Garlic Naan", "p": "$5.99", "w": "Warm, blistered and garlicky — made to scoop up every last bit."}
       ],
-      'spicy': [
-        {n:'Chicken Vindaloo', p:'$19.99', w:'Fiery, vinegar-tangy. Not for the faint of heart.'},
-        {n:'Andhra Chicken', p:'$19.99', w:'Heat with depth — chilis, curry leaves, mustard.'},
-        {n:'Lamb Madras', p:'$22.99', w:'Slow-cooked lamb with serious kick.'}
+      "spicy": [
+        {"n": "Kadhai Chicken", "p": "$18.99", "w": "Chicken tossed with peppers, onions and freshly-ground kadhai spices."},
+        {"n": "Goat Curry", "p": "$21.99", "w": "Bone-in goat slow-cooked in a deep, boldly spiced gravy."},
+        {"n": "Sweet Lassi", "p": "$5.99", "w": "Cool the heat with a thick, sweet, creamy lassi."}
       ],
-      'light': [
-        {n:'Mix Veg Curry', p:'$15.99', w:'Seasonal vegetables, lightly spiced.'},
-        {n:'Tandoori Chicken', p:'$18.99', w:'Lean, smoky, clay-oven roasted.'},
-        {n:'Plain Lassi', p:'$4.99', w:'Cooling yogurt drink — pairs perfectly.'}
+      "light": [
+        {"n": "Chicken Tikka", "p": "$17.99", "w": "Grilled boneless chicken cubes — lean, smoky, no heavy gravy."},
+        {"n": "Yellow Dal Tadka", "p": "$17.99", "w": "Light yellow lentils tempered with cumin and spices."},
+        {"n": "Green Salad", "p": "$6.99", "w": "Crisp, fresh and clean on the side."}
       ],
-      'celebratory': [
-        {n:'Non-Veg Thali', p:'$20.99', w:'The ultimate spread — eight items on one plate.'},
-        {n:'Hyderabadi Biryani', p:'$18.99', w:'Saffron, basmati, slow-dum-cooked aromatic.'},
-        {n:'Gulab Jamun', p:'$5.99', w:'Sweet ending — soft, syrupy, traditional.'}
+      "celebratory": [
+        {"n": "Non-Veg Thali", "p": "$20.99", "w": "The full spread — chicken curry, dal makhani, rice, raita, sweet, salad and two breads."},
+        {"n": "Chicken Biryani", "p": "$18.99", "w": "Fragrant basmati layered with tender spiced chicken."},
+        {"n": "Gulab Jamun (2)", "p": "$4.99", "w": "Warm, syrup-soaked and sweet — the perfect finish."}
       ],
-      'first time': [
-        {n:'Butter Chicken', p:'$19.99', w:'Universally loved — the gateway to Indian food.'},
-        {n:'Garlic Naan', p:'$3.99', w:'You will want bread. Get this one.'},
-        {n:'Mango Lassi', p:'$5.99', w:'Sweet, fruity, cools any heat.'}
+      "first time": [
+        {"n": "Butter Chicken", "p": "$18.99", "w": "Universally loved — the perfect first Indian curry."},
+        {"n": "Garlic Naan", "p": "$5.99", "w": "You will want bread to go with it. Get this one."},
+        {"n": "Mango Lassi", "p": "$6.99", "w": "Sweet, fruity and cools any spice."}
       ],
-      'vegetarian': [
-        {n:'Paneer Tikka Masala', p:'$17.99', w:'Charred paneer in creamy tomato gravy.'},
-        {n:'Chana Masala', p:'$15.99', w:'Chickpea powerhouse — protein-rich and flavourful.'},
-        {n:'Veg Biryani', p:'$15.99', w:'Aromatic basmati with seasonal vegetables.'}
+      "vegetarian": [
+        {"n": "Shahi Paneer", "p": "$18.99", "w": "Soft paneer in a rich, creamy tomato gravy."},
+        {"n": "Chana Masala", "p": "$17.99", "w": "Protein-packed chickpeas in a spiced onion-tomato gravy."},
+        {"n": "Veg Biryani", "p": "$17.99", "w": "Aromatic basmati cooked with seasonal vegetables."}
       ],
-      'late night': [
-        {n:'Samosa Chaat', p:'$9.99', w:'Quick, satisfying, full of textures.'},
-        {n:'Chicken Roll', p:'$10.99', w:'Wrapped, portable — perfect 2 AM fuel.'},
-        {n:'Masala Chai', p:'$3.99', w:'Reset your soul.'}
+      "late night": [
+        {"n": "Samosa Chaat", "p": "$9.99", "w": "Crispy samosa, chickpeas, chutneys and yogurt — the ultimate snack."},
+        {"n": "Butter Chicken Rice", "p": "$17.99", "w": "A full butter-chicken rice bowl — one dish, totally satisfying."},
+        {"n": "Masala Tea", "p": "$3.99", "w": "Hot, spiced chai to keep you going — we are open till 4 AM."}
       ]
     };
+    // CHEF-PICKS:END
     function render(key){
       var list = picks[key];
       if (!list) return;
