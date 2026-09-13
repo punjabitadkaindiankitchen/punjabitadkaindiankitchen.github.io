@@ -1,0 +1,196 @@
+{
+  "restaurant": "Punjabi Tadka Indian Kitchen",
+  "currency": "CAD",
+  "updated": "2026-09-13",
+  "notes": [
+    "15% gratuity added for groups of 6 or more.",
+    "Prices subject to change. Taxes are not included in the listed prices."
+  ],
+  "categories": [
+    {
+      "id": "thali",
+      "name": "Thali — The Perfect Meal",
+      "items": [
+        { "name": "Veg Thali", "price": "15.99", "desc": "Paneer dish, dal makhani, rice, raita, sweet dish, salad, missi roti, tawa roti" },
+        { "name": "Non-Veg Thali", "price": "20.99", "desc": "Chicken curry, dal makhani, rice, raita, sweet dish, salad, missi roti, tawa roti" }
+      ]
+    },
+    {
+      "id": "breakfast",
+      "name": "Breakfast Combos",
+      "items": [
+        { "name": "Any Parantha Combo", "price": "12.99", "desc": "Aloo / Gobhi / Paneer / Mix / Methi" },
+        { "name": "Chole Puri Combo", "price": "14.99", "desc": "Chana + raita + 2 puris" },
+        { "name": "Amritsari Kulcha Combo", "price": "14.99", "desc": "Chana + raita + aloo kulcha" },
+        { "name": "Chana Bhatura Combo", "price": "14.99", "desc": "Chana + raita + 2 bhatura" }
+      ]
+    },
+    {
+      "id": "addons",
+      "name": "Add Ons",
+      "items": [
+        { "name": "Single Parantha", "price": "7.99", "desc": "Aloo / Gobhi / Paneer / Mix / Methi" },
+        { "name": "Single Puri", "price": "4.99", "desc": "" },
+        { "name": "Single Bhatura", "price": "4.99", "desc": "" },
+        { "name": "Single Kulcha", "price": "7.99", "desc": "" }
+      ]
+    },
+    {
+      "id": "egg",
+      "name": "Egg Specialties",
+      "items": [
+        { "name": "Egg Omelette", "price": "14.99", "desc": "" },
+        { "name": "Egg Bhurji", "price": "18.99", "desc": "" }
+      ]
+    },
+    {
+      "id": "nonveg-appetizers",
+      "name": "Non-Veg Appetizers",
+      "items": [
+        { "name": "Chicken Wings", "price": "14.99", "desc": "" },
+        { "name": "Chicken Nuggets", "price": "11.99", "desc": "" },
+        { "name": "Chicken Fries", "price": "11.99", "desc": "" },
+        { "name": "Chicken Tikka", "price": "17.99", "desc": "Grilled boneless chicken cubes" },
+        { "name": "Chicken Tandoori", "price": "18.99", "desc": "Bone-in tandoori style chicken" },
+        { "name": "Chicken Kebab", "price": "18.99", "desc": "Juicy seekh kebab" }
+      ]
+    },
+    {
+      "id": "street-food",
+      "name": "Street Food — Snacks",
+      "items": [
+        { "name": "Samosa Chaat", "price": "9.99", "desc": "" },
+        { "name": "Dahi Bhalla Chaat", "price": "11.99", "desc": "" },
+        { "name": "Tikki Chaat", "price": "9.99", "desc": "" },
+        { "name": "Mix Pakora", "price": "9.99", "desc": "" },
+        { "name": "Paneer Pakora", "price": "14.99", "desc": "" },
+        { "name": "Onion Rings", "price": "9.99", "desc": "" },
+        { "name": "Veg Spring Roll", "price": "9.99", "desc": "" },
+        { "name": "French Fries", "price": "9.99", "desc": "" },
+        { "name": "Paneer Tikka", "price": "17.99", "desc": "" },
+        { "name": "Veg Samosa Combo (3 pcs)", "price": "9.99", "desc": "" },
+        { "name": "Chicken Samosa Combo (2 pcs)", "price": "14.99", "desc": "" },
+        { "name": "Bread Pakora (2 pcs)", "price": "11.99", "desc": "" },
+        { "name": "Kurkure Noodle Spring Roll", "price": "14.99", "desc": "" },
+        { "name": "Kurkure Momos", "price": "14.99", "desc": "" }
+      ]
+    },
+    {
+      "id": "veg-mains",
+      "name": "Vegetarian Mains",
+      "items": [
+        { "name": "Rajma", "price": "17.99", "desc": "Red kidney beans cooked in rich onion & tomato gravy" },
+        { "name": "Kadhi Pakora", "price": "17.99", "desc": "Yoghurt curry with chickpea flour pakoras" },
+        { "name": "Chana Masala", "price": "17.99", "desc": "Chickpeas in spiced onion & tomato gravy" },
+        { "name": "Dal Makhani", "price": "17.99", "desc": "Creamy black lentils" },
+        { "name": "Yellow Dal Tadka", "price": "17.99", "desc": "Yellow lentils tempered with spices" },
+        { "name": "Bhindi Masala", "price": "17.99", "desc": "Okra cooked with spices" },
+        { "name": "Sarson Da Saag", "price": "17.99", "desc": "Mustard greens cooked with spices" },
+        { "name": "Kadhai Paneer", "price": "18.99", "desc": "Paneer cooked with peppers and onions" },
+        { "name": "Shahi Paneer", "price": "18.99", "desc": "Paneer in creamy tomato gravy" },
+        { "name": "Palak Paneer", "price": "18.99", "desc": "Paneer in spinach gravy" },
+        { "name": "Matar Paneer", "price": "18.99", "desc": "Paneer with green peas in creamy gravy" },
+        { "name": "Soya Chaap", "price": "18.99", "desc": "Soya chaap in spiced gravy" },
+        { "name": "Mix Veg", "price": "18.99", "desc": "Spiced mixed vegetables" },
+        { "name": "Paneer Bhurji", "price": "20.99", "desc": "Crumbled paneer with spices, onion & tomato" }
+      ]
+    },
+    {
+      "id": "nonveg-mains",
+      "name": "Non-Veg Mains",
+      "items": [
+        { "name": "Butter Chicken", "price": "18.99", "desc": "Boneless chicken in creamy onion tomato gravy" },
+        { "name": "Chicken Curry", "price": "18.99", "desc": "Bone-in chicken in homestyle curry" },
+        { "name": "Kadhai Chicken", "price": "18.99", "desc": "Chicken cooked with peppers & onions in tomato gravy" },
+        { "name": "Goat Curry", "price": "21.99", "desc": "Goat cooked in spiced onion tomato gravy" }
+      ]
+    },
+    {
+      "id": "rice-bowls",
+      "name": "Rice Bowls",
+      "items": [
+        { "name": "Rajma Rice", "price": "14.99", "desc": "" },
+        { "name": "Chole Rice", "price": "14.99", "desc": "" },
+        { "name": "Kadhi Rice", "price": "14.99", "desc": "" },
+        { "name": "Dal Rice", "price": "14.99", "desc": "" },
+        { "name": "Chicken Curry Rice", "price": "17.99", "desc": "" },
+        { "name": "Butter Chicken Rice", "price": "17.99", "desc": "" },
+        { "name": "Kadhai Chicken Rice", "price": "17.99", "desc": "" },
+        { "name": "Goat Curry Rice", "price": "20.99", "desc": "" }
+      ]
+    },
+    {
+      "id": "biryani",
+      "name": "Biryani",
+      "items": [
+        { "name": "Veg Biryani", "price": "17.99", "desc": "" },
+        { "name": "Chicken Biryani", "price": "18.99", "desc": "" },
+        { "name": "Goat Biryani", "price": "21.99", "desc": "" }
+      ]
+    },
+    {
+      "id": "breads-rice",
+      "name": "Breads & Rice",
+      "items": [
+        { "name": "Tawa Roti", "price": "2.99", "desc": "" },
+        { "name": "Tandoori Roti", "price": "3.99", "desc": "" },
+        { "name": "Butter Naan", "price": "4.99", "desc": "" },
+        { "name": "Garlic Naan", "price": "5.99", "desc": "" },
+        { "name": "Lachha Paratha", "price": "7.99", "desc": "" },
+        { "name": "Missi Roti", "price": "3.99", "desc": "" },
+        { "name": "Makki Roti", "price": "4.99", "desc": "" },
+        { "name": "Plain Rice", "price": "5.99", "desc": "" },
+        { "name": "Jeera Rice", "price": "6.99", "desc": "" },
+        { "name": "Veg Pulao", "price": "14.99", "desc": "" }
+      ]
+    },
+    {
+      "id": "sides",
+      "name": "Sides",
+      "items": [
+        { "name": "Onion Salad", "price": "4.99", "desc": "" },
+        { "name": "Sirka Onion", "price": "4.99", "desc": "" },
+        { "name": "Green Salad", "price": "6.99", "desc": "" },
+        { "name": "Plain Dahi", "price": "4.99", "desc": "" },
+        { "name": "Raita", "price": "6.99", "desc": "" },
+        { "name": "Papad (3)", "price": "4.99", "desc": "" }
+      ]
+    },
+    {
+      "id": "juices-shakes",
+      "name": "Fresh Juices & Shakes",
+      "items": [
+        { "name": "Orange Juice", "price": "11.99", "desc": "" },
+        { "name": "Pineapple Juice", "price": "11.99", "desc": "" },
+        { "name": "Carrot Juice", "price": "11.99", "desc": "" },
+        { "name": "Apple Juice", "price": "11.99", "desc": "" },
+        { "name": "Mix Fruit Juice", "price": "11.99", "desc": "" },
+        { "name": "Mango Shake", "price": "11.99", "desc": "" },
+        { "name": "Banana Shake", "price": "11.99", "desc": "" }
+      ]
+    },
+    {
+      "id": "drinks",
+      "name": "Drinks",
+      "items": [
+        { "name": "Mango Lassi", "price": "6.99", "desc": "" },
+        { "name": "Sweet Lassi", "price": "5.99", "desc": "" },
+        { "name": "Salted Lassi", "price": "5.99", "desc": "" },
+        { "name": "Masala Tea", "price": "3.99", "desc": "" },
+        { "name": "Coffee", "price": "4.99", "desc": "" },
+        { "name": "Pop Can", "price": "2.99", "desc": "" },
+        { "name": "Lemon Soda", "price": "9.99", "desc": "" }
+      ]
+    },
+    {
+      "id": "desserts",
+      "name": "Desserts",
+      "items": [
+        { "name": "Gulab Jamun (2)", "price": "4.99", "desc": "" },
+        { "name": "Rasmalai (2)", "price": "4.99", "desc": "" },
+        { "name": "Kulfi", "price": "4.99", "desc": "" },
+        { "name": "Matka Kulfi", "price": "6.99", "desc": "" }
+      ]
+    }
+  ]
+}

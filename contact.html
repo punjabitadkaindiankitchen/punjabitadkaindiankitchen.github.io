@@ -98,6 +98,7 @@
 {
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
+  "priceRange": "$$",
   "name": "Punjabi Tadka Indian Kitchen",
   "image": "https://punjabitadkaindiankitchen.ca/og-image.jpg",
   "@id": "https://punjabitadkaindiankitchen.ca",
@@ -199,65 +200,6 @@
 </script>
 
 <!-- Menu schema — helps dish-specific searches (e.g. "butter chicken niagara falls") -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Menu",
-  "name": "Punjabi Tadka Indian Kitchen Menu",
-  "inLanguage": "en-CA",
-  "hasMenuSection": [
-    {
-      "@type": "MenuSection",
-      "name": "Thali",
-      "description": "Complete, balanced Indian meals — rice, dal, curry, roti, raita, salad, and dessert on one plate.",
-      "hasMenuItem": [
-        {"@type": "MenuItem", "name": "Veg Thali", "description": "Paneer dish, Dal Makhani, rice, raita, sweet dish, salad, Missi Roti, Tawa Roti", "offers": {"@type": "Offer", "price": "15.99", "priceCurrency": "CAD"}, "suitableForDiet": "https://schema.org/VegetarianDiet"},
-        {"@type": "MenuItem", "name": "Non-Veg Thali", "description": "Chicken curry, Dal Makhani, rice, raita, sweet dish, salad, Missi Roti, Tawa Roti", "offers": {"@type": "Offer", "price": "20.99", "priceCurrency": "CAD"}}
-      ]
-    },
-    {
-      "@type": "MenuSection",
-      "name": "Vegetarian Classics",
-      "hasMenuItem": [
-        {"@type": "MenuItem", "name": "Dal Makhani", "description": "Slow-cooked black lentils in a rich, buttery tomato gravy — a Punjabi classic.", "offers": {"@type": "Offer", "price": "16.99", "priceCurrency": "CAD"}, "suitableForDiet": "https://schema.org/VegetarianDiet"},
-        {"@type": "MenuItem", "name": "Sarso da Saag", "description": "Traditional Punjabi mustard greens, slow-cooked with spices. Served best with Makki di Roti.", "offers": {"@type": "Offer", "price": "16.99", "priceCurrency": "CAD"}, "suitableForDiet": "https://schema.org/VegetarianDiet"},
-        {"@type": "MenuItem", "name": "Kadhai Paneer", "description": "Cottage cheese cooked with bell peppers in a robust Kadhai spice blend.", "offers": {"@type": "Offer", "price": "17.99", "priceCurrency": "CAD"}, "suitableForDiet": "https://schema.org/VegetarianDiet"},
-        {"@type": "MenuItem", "name": "Palak Paneer", "description": "Cottage cheese in creamed spinach with garlic and spices.", "offers": {"@type": "Offer", "price": "17.99", "priceCurrency": "CAD"}, "suitableForDiet": "https://schema.org/VegetarianDiet"},
-        {"@type": "MenuItem", "name": "Paneer Bhurji", "description": "Scrambled cottage cheese with onions, tomatoes, and spices.", "offers": {"@type": "Offer", "price": "19.99", "priceCurrency": "CAD"}, "suitableForDiet": "https://schema.org/VegetarianDiet"},
-        {"@type": "MenuItem", "name": "Chana Masala", "description": "Chickpeas in a rich North Indian tomato-onion masala.", "offers": {"@type": "Offer", "price": "16.99", "priceCurrency": "CAD"}, "suitableForDiet": "https://schema.org/VegetarianDiet"}
-      ]
-    },
-    {
-      "@type": "MenuSection",
-      "name": "Non-Veg Specialties",
-      "hasMenuItem": [
-        {"@type": "MenuItem", "name": "Butter Chicken", "description": "Tender chicken in a creamy tomato-butter sauce — the signature North Indian dish.", "offers": {"@type": "Offer", "price": "17.99", "priceCurrency": "CAD"}},
-        {"@type": "MenuItem", "name": "Chicken Curry", "description": "Traditional home-style chicken curry with Punjabi spices.", "offers": {"@type": "Offer", "price": "17.99", "priceCurrency": "CAD"}},
-        {"@type": "MenuItem", "name": "Kadhai Chicken", "description": "Chicken cooked with bell peppers and onions in the Kadhai spice blend.", "offers": {"@type": "Offer", "price": "17.99", "priceCurrency": "CAD"}}
-      ]
-    },
-    {
-      "@type": "MenuSection",
-      "name": "Breakfast Combos",
-      "description": "Hearty Punjabi breakfast served all day.",
-      "hasMenuItem": [
-        {"@type": "MenuItem", "name": "Chana Bhatura Combo", "description": "2 Bhatura + Chana + Raita — the ultimate Punjabi breakfast combo.", "offers": {"@type": "Offer", "price": "14.99", "priceCurrency": "CAD"}, "suitableForDiet": "https://schema.org/VegetarianDiet"},
-        {"@type": "MenuItem", "name": "Chole Puri Combo", "description": "2 Puri + Chickpeas — a hearty Punjabi breakfast classic.", "offers": {"@type": "Offer", "price": "14.99", "priceCurrency": "CAD"}, "suitableForDiet": "https://schema.org/VegetarianDiet"},
-        {"@type": "MenuItem", "name": "Any Parantha Combo", "description": "Aloo / Gobhi / Paneer / Mix / Methi — 1 Parantha + Curd + Butter + Pickle.", "offers": {"@type": "Offer", "price": "12.99", "priceCurrency": "CAD"}, "suitableForDiet": "https://schema.org/VegetarianDiet"}
-      ]
-    },
-    {
-      "@type": "MenuSection",
-      "name": "Street Food & Chaat",
-      "hasMenuItem": [
-        {"@type": "MenuItem", "name": "Samosa Chaat", "offers": {"@type": "Offer", "price": "9.99", "priceCurrency": "CAD"}, "suitableForDiet": "https://schema.org/VegetarianDiet"},
-        {"@type": "MenuItem", "name": "Paneer Tikka", "offers": {"@type": "Offer", "price": "16.99", "priceCurrency": "CAD"}, "suitableForDiet": "https://schema.org/VegetarianDiet"},
-        {"@type": "MenuItem", "name": "Dahi Bhalla Chaat", "offers": {"@type": "Offer", "price": "11.99", "priceCurrency": "CAD"}, "suitableForDiet": "https://schema.org/VegetarianDiet"}
-      ]
-    }
-  ]
-}
-</script>
 
 <!-- WebSite schema with Sitelinks search box -->
 <script type="application/ld+json">
@@ -1856,9 +1798,9 @@ html.pt-has-cursor .menu-tab, html.pt-has-cursor .menu-search-clear{cursor:point
 <div class="pt-intro" id="ptIntro" aria-label="Welcome animation">
   <canvas class="pt-intro-canvas" id="ptIntroCanvas" aria-hidden="true"></canvas>
   <div class="pt-intro-text">
-    <h1 class="pt-intro-title" aria-label="Punjabi Tadka">
+    <div class="pt-intro-title" aria-label="Punjabi Tadka">
       <span class="ptl">P</span><span class="ptl">U</span><span class="ptl">N</span><span class="ptl">J</span><span class="ptl">A</span><span class="ptl">B</span><span class="ptl">I</span><span class="ptl">&nbsp;</span><span class="ptl"><em>T</em></span><span class="ptl"><em>A</em></span><span class="ptl"><em>D</em></span><span class="ptl"><em>K</em></span><span class="ptl"><em>A</em></span>
-    </h1>
+    </div>
     <span class="pt-intro-divider" aria-hidden="true"></span>
     <div class="pt-intro-sub">
       <span class="ptl-sub">Authentic Punjabi flavours &middot; Niagara Falls</span>

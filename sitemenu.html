@@ -98,6 +98,7 @@
 {
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
+  "priceRange": "$$",
   "name": "Punjabi Tadka Indian Kitchen",
   "image": "https://punjabitadkaindiankitchen.ca/og-image.jpg",
   "@id": "https://punjabitadkaindiankitchen.ca",
@@ -204,55 +205,978 @@
   "@context": "https://schema.org",
   "@type": "Menu",
   "name": "Punjabi Tadka Indian Kitchen Menu",
-  "inLanguage": "en-CA",
   "hasMenuSection": [
     {
       "@type": "MenuSection",
-      "name": "Thali",
-      "description": "Complete, balanced Indian meals — rice, dal, curry, roti, raita, salad, and dessert on one plate.",
+      "name": "Thali — The Perfect Meal",
       "hasMenuItem": [
-        {"@type": "MenuItem", "name": "Veg Thali", "description": "Paneer dish, Dal Makhani, rice, raita, sweet dish, salad, Missi Roti, Tawa Roti", "offers": {"@type": "Offer", "price": "15.99", "priceCurrency": "CAD"}, "suitableForDiet": "https://schema.org/VegetarianDiet"},
-        {"@type": "MenuItem", "name": "Non-Veg Thali", "description": "Chicken curry, Dal Makhani, rice, raita, sweet dish, salad, Missi Roti, Tawa Roti", "offers": {"@type": "Offer", "price": "20.99", "priceCurrency": "CAD"}}
-      ]
-    },
-    {
-      "@type": "MenuSection",
-      "name": "Vegetarian Classics",
-      "hasMenuItem": [
-        {"@type": "MenuItem", "name": "Dal Makhani", "description": "Slow-cooked black lentils in a rich, buttery tomato gravy — a Punjabi classic.", "offers": {"@type": "Offer", "price": "16.99", "priceCurrency": "CAD"}, "suitableForDiet": "https://schema.org/VegetarianDiet"},
-        {"@type": "MenuItem", "name": "Sarso da Saag", "description": "Traditional Punjabi mustard greens, slow-cooked with spices. Served best with Makki di Roti.", "offers": {"@type": "Offer", "price": "16.99", "priceCurrency": "CAD"}, "suitableForDiet": "https://schema.org/VegetarianDiet"},
-        {"@type": "MenuItem", "name": "Kadhai Paneer", "description": "Cottage cheese cooked with bell peppers in a robust Kadhai spice blend.", "offers": {"@type": "Offer", "price": "17.99", "priceCurrency": "CAD"}, "suitableForDiet": "https://schema.org/VegetarianDiet"},
-        {"@type": "MenuItem", "name": "Palak Paneer", "description": "Cottage cheese in creamed spinach with garlic and spices.", "offers": {"@type": "Offer", "price": "17.99", "priceCurrency": "CAD"}, "suitableForDiet": "https://schema.org/VegetarianDiet"},
-        {"@type": "MenuItem", "name": "Paneer Bhurji", "description": "Scrambled cottage cheese with onions, tomatoes, and spices.", "offers": {"@type": "Offer", "price": "19.99", "priceCurrency": "CAD"}, "suitableForDiet": "https://schema.org/VegetarianDiet"},
-        {"@type": "MenuItem", "name": "Chana Masala", "description": "Chickpeas in a rich North Indian tomato-onion masala.", "offers": {"@type": "Offer", "price": "16.99", "priceCurrency": "CAD"}, "suitableForDiet": "https://schema.org/VegetarianDiet"}
-      ]
-    },
-    {
-      "@type": "MenuSection",
-      "name": "Non-Veg Specialties",
-      "hasMenuItem": [
-        {"@type": "MenuItem", "name": "Butter Chicken", "description": "Tender chicken in a creamy tomato-butter sauce — the signature North Indian dish.", "offers": {"@type": "Offer", "price": "17.99", "priceCurrency": "CAD"}},
-        {"@type": "MenuItem", "name": "Chicken Curry", "description": "Traditional home-style chicken curry with Punjabi spices.", "offers": {"@type": "Offer", "price": "17.99", "priceCurrency": "CAD"}},
-        {"@type": "MenuItem", "name": "Kadhai Chicken", "description": "Chicken cooked with bell peppers and onions in the Kadhai spice blend.", "offers": {"@type": "Offer", "price": "17.99", "priceCurrency": "CAD"}}
+        {
+          "@type": "MenuItem",
+          "name": "Veg Thali",
+          "offers": {
+            "@type": "Offer",
+            "price": "15.99",
+            "priceCurrency": "CAD"
+          },
+          "description": "Paneer dish, dal makhani, rice, raita, sweet dish, salad, missi roti, tawa roti"
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Non-Veg Thali",
+          "offers": {
+            "@type": "Offer",
+            "price": "20.99",
+            "priceCurrency": "CAD"
+          },
+          "description": "Chicken curry, dal makhani, rice, raita, sweet dish, salad, missi roti, tawa roti"
+        }
       ]
     },
     {
       "@type": "MenuSection",
       "name": "Breakfast Combos",
-      "description": "Hearty Punjabi breakfast served all day.",
       "hasMenuItem": [
-        {"@type": "MenuItem", "name": "Chana Bhatura Combo", "description": "2 Bhatura + Chana + Raita — the ultimate Punjabi breakfast combo.", "offers": {"@type": "Offer", "price": "14.99", "priceCurrency": "CAD"}, "suitableForDiet": "https://schema.org/VegetarianDiet"},
-        {"@type": "MenuItem", "name": "Chole Puri Combo", "description": "2 Puri + Chickpeas — a hearty Punjabi breakfast classic.", "offers": {"@type": "Offer", "price": "14.99", "priceCurrency": "CAD"}, "suitableForDiet": "https://schema.org/VegetarianDiet"},
-        {"@type": "MenuItem", "name": "Any Parantha Combo", "description": "Aloo / Gobhi / Paneer / Mix / Methi — 1 Parantha + Curd + Butter + Pickle.", "offers": {"@type": "Offer", "price": "12.99", "priceCurrency": "CAD"}, "suitableForDiet": "https://schema.org/VegetarianDiet"}
+        {
+          "@type": "MenuItem",
+          "name": "Any Parantha Combo",
+          "offers": {
+            "@type": "Offer",
+            "price": "12.99",
+            "priceCurrency": "CAD"
+          },
+          "description": "Aloo / Gobhi / Paneer / Mix / Methi"
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Chole Puri Combo",
+          "offers": {
+            "@type": "Offer",
+            "price": "14.99",
+            "priceCurrency": "CAD"
+          },
+          "description": "Chana + raita + 2 puris"
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Amritsari Kulcha Combo",
+          "offers": {
+            "@type": "Offer",
+            "price": "14.99",
+            "priceCurrency": "CAD"
+          },
+          "description": "Chana + raita + aloo kulcha"
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Chana Bhatura Combo",
+          "offers": {
+            "@type": "Offer",
+            "price": "14.99",
+            "priceCurrency": "CAD"
+          },
+          "description": "Chana + raita + 2 bhatura"
+        }
       ]
     },
     {
       "@type": "MenuSection",
-      "name": "Street Food & Chaat",
+      "name": "Add Ons",
       "hasMenuItem": [
-        {"@type": "MenuItem", "name": "Samosa Chaat", "offers": {"@type": "Offer", "price": "9.99", "priceCurrency": "CAD"}, "suitableForDiet": "https://schema.org/VegetarianDiet"},
-        {"@type": "MenuItem", "name": "Paneer Tikka", "offers": {"@type": "Offer", "price": "16.99", "priceCurrency": "CAD"}, "suitableForDiet": "https://schema.org/VegetarianDiet"},
-        {"@type": "MenuItem", "name": "Dahi Bhalla Chaat", "offers": {"@type": "Offer", "price": "11.99", "priceCurrency": "CAD"}, "suitableForDiet": "https://schema.org/VegetarianDiet"}
+        {
+          "@type": "MenuItem",
+          "name": "Single Parantha",
+          "offers": {
+            "@type": "Offer",
+            "price": "7.99",
+            "priceCurrency": "CAD"
+          },
+          "description": "Aloo / Gobhi / Paneer / Mix / Methi"
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Single Puri",
+          "offers": {
+            "@type": "Offer",
+            "price": "4.99",
+            "priceCurrency": "CAD"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Single Bhatura",
+          "offers": {
+            "@type": "Offer",
+            "price": "4.99",
+            "priceCurrency": "CAD"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Single Kulcha",
+          "offers": {
+            "@type": "Offer",
+            "price": "7.99",
+            "priceCurrency": "CAD"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "MenuSection",
+      "name": "Egg Specialties",
+      "hasMenuItem": [
+        {
+          "@type": "MenuItem",
+          "name": "Egg Omelette",
+          "offers": {
+            "@type": "Offer",
+            "price": "14.99",
+            "priceCurrency": "CAD"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Egg Bhurji",
+          "offers": {
+            "@type": "Offer",
+            "price": "18.99",
+            "priceCurrency": "CAD"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "MenuSection",
+      "name": "Non-Veg Appetizers",
+      "hasMenuItem": [
+        {
+          "@type": "MenuItem",
+          "name": "Chicken Wings",
+          "offers": {
+            "@type": "Offer",
+            "price": "14.99",
+            "priceCurrency": "CAD"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Chicken Nuggets",
+          "offers": {
+            "@type": "Offer",
+            "price": "11.99",
+            "priceCurrency": "CAD"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Chicken Fries",
+          "offers": {
+            "@type": "Offer",
+            "price": "11.99",
+            "priceCurrency": "CAD"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Chicken Tikka",
+          "offers": {
+            "@type": "Offer",
+            "price": "17.99",
+            "priceCurrency": "CAD"
+          },
+          "description": "Grilled boneless chicken cubes"
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Chicken Tandoori",
+          "offers": {
+            "@type": "Offer",
+            "price": "18.99",
+            "priceCurrency": "CAD"
+          },
+          "description": "Bone-in tandoori style chicken"
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Chicken Kebab",
+          "offers": {
+            "@type": "Offer",
+            "price": "18.99",
+            "priceCurrency": "CAD"
+          },
+          "description": "Juicy seekh kebab"
+        }
+      ]
+    },
+    {
+      "@type": "MenuSection",
+      "name": "Street Food — Snacks",
+      "hasMenuItem": [
+        {
+          "@type": "MenuItem",
+          "name": "Samosa Chaat",
+          "offers": {
+            "@type": "Offer",
+            "price": "9.99",
+            "priceCurrency": "CAD"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Dahi Bhalla Chaat",
+          "offers": {
+            "@type": "Offer",
+            "price": "11.99",
+            "priceCurrency": "CAD"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Tikki Chaat",
+          "offers": {
+            "@type": "Offer",
+            "price": "9.99",
+            "priceCurrency": "CAD"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Mix Pakora",
+          "offers": {
+            "@type": "Offer",
+            "price": "9.99",
+            "priceCurrency": "CAD"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Paneer Pakora",
+          "offers": {
+            "@type": "Offer",
+            "price": "14.99",
+            "priceCurrency": "CAD"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Onion Rings",
+          "offers": {
+            "@type": "Offer",
+            "price": "9.99",
+            "priceCurrency": "CAD"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Veg Spring Roll",
+          "offers": {
+            "@type": "Offer",
+            "price": "9.99",
+            "priceCurrency": "CAD"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "French Fries",
+          "offers": {
+            "@type": "Offer",
+            "price": "9.99",
+            "priceCurrency": "CAD"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Paneer Tikka",
+          "offers": {
+            "@type": "Offer",
+            "price": "17.99",
+            "priceCurrency": "CAD"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Veg Samosa Combo (3 pcs)",
+          "offers": {
+            "@type": "Offer",
+            "price": "9.99",
+            "priceCurrency": "CAD"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Chicken Samosa Combo (2 pcs)",
+          "offers": {
+            "@type": "Offer",
+            "price": "14.99",
+            "priceCurrency": "CAD"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Bread Pakora (2 pcs)",
+          "offers": {
+            "@type": "Offer",
+            "price": "11.99",
+            "priceCurrency": "CAD"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Kurkure Noodle Spring Roll",
+          "offers": {
+            "@type": "Offer",
+            "price": "14.99",
+            "priceCurrency": "CAD"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Kurkure Momos",
+          "offers": {
+            "@type": "Offer",
+            "price": "14.99",
+            "priceCurrency": "CAD"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "MenuSection",
+      "name": "Vegetarian Mains",
+      "hasMenuItem": [
+        {
+          "@type": "MenuItem",
+          "name": "Rajma",
+          "offers": {
+            "@type": "Offer",
+            "price": "17.99",
+            "priceCurrency": "CAD"
+          },
+          "description": "Red kidney beans cooked in rich onion & tomato gravy"
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Kadhi Pakora",
+          "offers": {
+            "@type": "Offer",
+            "price": "17.99",
+            "priceCurrency": "CAD"
+          },
+          "description": "Yoghurt curry with chickpea flour pakoras"
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Chana Masala",
+          "offers": {
+            "@type": "Offer",
+            "price": "17.99",
+            "priceCurrency": "CAD"
+          },
+          "description": "Chickpeas in spiced onion & tomato gravy"
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Dal Makhani",
+          "offers": {
+            "@type": "Offer",
+            "price": "17.99",
+            "priceCurrency": "CAD"
+          },
+          "description": "Creamy black lentils"
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Yellow Dal Tadka",
+          "offers": {
+            "@type": "Offer",
+            "price": "17.99",
+            "priceCurrency": "CAD"
+          },
+          "description": "Yellow lentils tempered with spices"
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Bhindi Masala",
+          "offers": {
+            "@type": "Offer",
+            "price": "17.99",
+            "priceCurrency": "CAD"
+          },
+          "description": "Okra cooked with spices"
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Sarson Da Saag",
+          "offers": {
+            "@type": "Offer",
+            "price": "17.99",
+            "priceCurrency": "CAD"
+          },
+          "description": "Mustard greens cooked with spices"
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Kadhai Paneer",
+          "offers": {
+            "@type": "Offer",
+            "price": "18.99",
+            "priceCurrency": "CAD"
+          },
+          "description": "Paneer cooked with peppers and onions"
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Shahi Paneer",
+          "offers": {
+            "@type": "Offer",
+            "price": "18.99",
+            "priceCurrency": "CAD"
+          },
+          "description": "Paneer in creamy tomato gravy"
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Palak Paneer",
+          "offers": {
+            "@type": "Offer",
+            "price": "18.99",
+            "priceCurrency": "CAD"
+          },
+          "description": "Paneer in spinach gravy"
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Matar Paneer",
+          "offers": {
+            "@type": "Offer",
+            "price": "18.99",
+            "priceCurrency": "CAD"
+          },
+          "description": "Paneer with green peas in creamy gravy"
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Soya Chaap",
+          "offers": {
+            "@type": "Offer",
+            "price": "18.99",
+            "priceCurrency": "CAD"
+          },
+          "description": "Soya chaap in spiced gravy"
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Mix Veg",
+          "offers": {
+            "@type": "Offer",
+            "price": "18.99",
+            "priceCurrency": "CAD"
+          },
+          "description": "Spiced mixed vegetables"
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Paneer Bhurji",
+          "offers": {
+            "@type": "Offer",
+            "price": "20.99",
+            "priceCurrency": "CAD"
+          },
+          "description": "Crumbled paneer with spices, onion & tomato"
+        }
+      ]
+    },
+    {
+      "@type": "MenuSection",
+      "name": "Non-Veg Mains",
+      "hasMenuItem": [
+        {
+          "@type": "MenuItem",
+          "name": "Butter Chicken",
+          "offers": {
+            "@type": "Offer",
+            "price": "18.99",
+            "priceCurrency": "CAD"
+          },
+          "description": "Boneless chicken in creamy onion tomato gravy"
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Chicken Curry",
+          "offers": {
+            "@type": "Offer",
+            "price": "18.99",
+            "priceCurrency": "CAD"
+          },
+          "description": "Bone-in chicken in homestyle curry"
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Kadhai Chicken",
+          "offers": {
+            "@type": "Offer",
+            "price": "18.99",
+            "priceCurrency": "CAD"
+          },
+          "description": "Chicken cooked with peppers & onions in tomato gravy"
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Goat Curry",
+          "offers": {
+            "@type": "Offer",
+            "price": "21.99",
+            "priceCurrency": "CAD"
+          },
+          "description": "Goat cooked in spiced onion tomato gravy"
+        }
+      ]
+    },
+    {
+      "@type": "MenuSection",
+      "name": "Rice Bowls",
+      "hasMenuItem": [
+        {
+          "@type": "MenuItem",
+          "name": "Rajma Rice",
+          "offers": {
+            "@type": "Offer",
+            "price": "14.99",
+            "priceCurrency": "CAD"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Chole Rice",
+          "offers": {
+            "@type": "Offer",
+            "price": "14.99",
+            "priceCurrency": "CAD"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Kadhi Rice",
+          "offers": {
+            "@type": "Offer",
+            "price": "14.99",
+            "priceCurrency": "CAD"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Dal Rice",
+          "offers": {
+            "@type": "Offer",
+            "price": "14.99",
+            "priceCurrency": "CAD"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Chicken Curry Rice",
+          "offers": {
+            "@type": "Offer",
+            "price": "17.99",
+            "priceCurrency": "CAD"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Butter Chicken Rice",
+          "offers": {
+            "@type": "Offer",
+            "price": "17.99",
+            "priceCurrency": "CAD"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Kadhai Chicken Rice",
+          "offers": {
+            "@type": "Offer",
+            "price": "17.99",
+            "priceCurrency": "CAD"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Goat Curry Rice",
+          "offers": {
+            "@type": "Offer",
+            "price": "20.99",
+            "priceCurrency": "CAD"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "MenuSection",
+      "name": "Biryani",
+      "hasMenuItem": [
+        {
+          "@type": "MenuItem",
+          "name": "Veg Biryani",
+          "offers": {
+            "@type": "Offer",
+            "price": "17.99",
+            "priceCurrency": "CAD"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Chicken Biryani",
+          "offers": {
+            "@type": "Offer",
+            "price": "18.99",
+            "priceCurrency": "CAD"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Goat Biryani",
+          "offers": {
+            "@type": "Offer",
+            "price": "21.99",
+            "priceCurrency": "CAD"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "MenuSection",
+      "name": "Breads & Rice",
+      "hasMenuItem": [
+        {
+          "@type": "MenuItem",
+          "name": "Tawa Roti",
+          "offers": {
+            "@type": "Offer",
+            "price": "2.99",
+            "priceCurrency": "CAD"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Tandoori Roti",
+          "offers": {
+            "@type": "Offer",
+            "price": "3.99",
+            "priceCurrency": "CAD"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Butter Naan",
+          "offers": {
+            "@type": "Offer",
+            "price": "4.99",
+            "priceCurrency": "CAD"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Garlic Naan",
+          "offers": {
+            "@type": "Offer",
+            "price": "5.99",
+            "priceCurrency": "CAD"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Lachha Paratha",
+          "offers": {
+            "@type": "Offer",
+            "price": "7.99",
+            "priceCurrency": "CAD"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Missi Roti",
+          "offers": {
+            "@type": "Offer",
+            "price": "3.99",
+            "priceCurrency": "CAD"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Makki Roti",
+          "offers": {
+            "@type": "Offer",
+            "price": "4.99",
+            "priceCurrency": "CAD"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Plain Rice",
+          "offers": {
+            "@type": "Offer",
+            "price": "5.99",
+            "priceCurrency": "CAD"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Jeera Rice",
+          "offers": {
+            "@type": "Offer",
+            "price": "6.99",
+            "priceCurrency": "CAD"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Veg Pulao",
+          "offers": {
+            "@type": "Offer",
+            "price": "14.99",
+            "priceCurrency": "CAD"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "MenuSection",
+      "name": "Sides",
+      "hasMenuItem": [
+        {
+          "@type": "MenuItem",
+          "name": "Onion Salad",
+          "offers": {
+            "@type": "Offer",
+            "price": "4.99",
+            "priceCurrency": "CAD"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Sirka Onion",
+          "offers": {
+            "@type": "Offer",
+            "price": "4.99",
+            "priceCurrency": "CAD"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Green Salad",
+          "offers": {
+            "@type": "Offer",
+            "price": "6.99",
+            "priceCurrency": "CAD"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Plain Dahi",
+          "offers": {
+            "@type": "Offer",
+            "price": "4.99",
+            "priceCurrency": "CAD"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Raita",
+          "offers": {
+            "@type": "Offer",
+            "price": "6.99",
+            "priceCurrency": "CAD"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Papad (3)",
+          "offers": {
+            "@type": "Offer",
+            "price": "4.99",
+            "priceCurrency": "CAD"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "MenuSection",
+      "name": "Fresh Juices & Shakes",
+      "hasMenuItem": [
+        {
+          "@type": "MenuItem",
+          "name": "Orange Juice",
+          "offers": {
+            "@type": "Offer",
+            "price": "11.99",
+            "priceCurrency": "CAD"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Pineapple Juice",
+          "offers": {
+            "@type": "Offer",
+            "price": "11.99",
+            "priceCurrency": "CAD"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Carrot Juice",
+          "offers": {
+            "@type": "Offer",
+            "price": "11.99",
+            "priceCurrency": "CAD"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Apple Juice",
+          "offers": {
+            "@type": "Offer",
+            "price": "11.99",
+            "priceCurrency": "CAD"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Mix Fruit Juice",
+          "offers": {
+            "@type": "Offer",
+            "price": "11.99",
+            "priceCurrency": "CAD"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Mango Shake",
+          "offers": {
+            "@type": "Offer",
+            "price": "11.99",
+            "priceCurrency": "CAD"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Banana Shake",
+          "offers": {
+            "@type": "Offer",
+            "price": "11.99",
+            "priceCurrency": "CAD"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "MenuSection",
+      "name": "Drinks",
+      "hasMenuItem": [
+        {
+          "@type": "MenuItem",
+          "name": "Mango Lassi",
+          "offers": {
+            "@type": "Offer",
+            "price": "6.99",
+            "priceCurrency": "CAD"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Sweet Lassi",
+          "offers": {
+            "@type": "Offer",
+            "price": "5.99",
+            "priceCurrency": "CAD"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Salted Lassi",
+          "offers": {
+            "@type": "Offer",
+            "price": "5.99",
+            "priceCurrency": "CAD"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Masala Tea",
+          "offers": {
+            "@type": "Offer",
+            "price": "3.99",
+            "priceCurrency": "CAD"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Coffee",
+          "offers": {
+            "@type": "Offer",
+            "price": "4.99",
+            "priceCurrency": "CAD"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Pop Can",
+          "offers": {
+            "@type": "Offer",
+            "price": "2.99",
+            "priceCurrency": "CAD"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Lemon Soda",
+          "offers": {
+            "@type": "Offer",
+            "price": "9.99",
+            "priceCurrency": "CAD"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "MenuSection",
+      "name": "Desserts",
+      "hasMenuItem": [
+        {
+          "@type": "MenuItem",
+          "name": "Gulab Jamun (2)",
+          "offers": {
+            "@type": "Offer",
+            "price": "4.99",
+            "priceCurrency": "CAD"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Rasmalai (2)",
+          "offers": {
+            "@type": "Offer",
+            "price": "4.99",
+            "priceCurrency": "CAD"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Kulfi",
+          "offers": {
+            "@type": "Offer",
+            "price": "4.99",
+            "priceCurrency": "CAD"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Matka Kulfi",
+          "offers": {
+            "@type": "Offer",
+            "price": "6.99",
+            "priceCurrency": "CAD"
+          }
+        }
       ]
     }
   ]
@@ -1809,6 +2733,7 @@ html.pt-has-cursor .menu-tab, html.pt-has-cursor .menu-search-clear{cursor:point
 .map-facade:hover{background:linear-gradient(135deg,#eee0cf 0%,#ddcab0 100%)}
 .map-facade small{display:block;font-weight:400;opacity:.7;font-size:.8rem;margin-top:.3rem}
 .map-facade template{display:none}
+.menu-item-desc{font-size:.76rem;color:var(--t2);margin-top:.2rem;line-height:1.35;font-weight:300}
 </style>
 
 <!-- ── MOTION LIBS (deferred — ~98KB gz total, no LCP impact) ── -->
@@ -1856,9 +2781,9 @@ html.pt-has-cursor .menu-tab, html.pt-has-cursor .menu-search-clear{cursor:point
 <div class="pt-intro" id="ptIntro" aria-label="Welcome animation">
   <canvas class="pt-intro-canvas" id="ptIntroCanvas" aria-hidden="true"></canvas>
   <div class="pt-intro-text">
-    <h1 class="pt-intro-title" aria-label="Punjabi Tadka">
+    <div class="pt-intro-title" aria-label="Punjabi Tadka">
       <span class="ptl">P</span><span class="ptl">U</span><span class="ptl">N</span><span class="ptl">J</span><span class="ptl">A</span><span class="ptl">B</span><span class="ptl">I</span><span class="ptl">&nbsp;</span><span class="ptl"><em>T</em></span><span class="ptl"><em>A</em></span><span class="ptl"><em>D</em></span><span class="ptl"><em>K</em></span><span class="ptl"><em>A</em></span>
-    </h1>
+    </div>
     <span class="pt-intro-divider" aria-hidden="true"></span>
     <div class="pt-intro-sub">
       <span class="ptl-sub">Authentic Punjabi flavours &middot; Niagara Falls</span>
@@ -1951,266 +2876,208 @@ html.pt-has-cursor .menu-tab, html.pt-has-cursor .menu-search-clear{cursor:point
 <div class="menu-tabs-wrap" id="menuTabsWrap">
   <div class="menu-tabs" id="menuTabs">
     <div class="menu-tab active" onclick="scrollToSection('thali',this)">Thali</div>
-    <div class="menu-tab" onclick="scrollToSection('street',this)">Street Food</div>
     <div class="menu-tab" onclick="scrollToSection('breakfast',this)">Breakfast</div>
-    <div class="menu-tab" onclick="scrollToSection('veg',this)">Vegetarian</div>
-    <div class="menu-tab" onclick="scrollToSection('nonveg',this)">Non-Veg</div>
-    <div class="menu-tab" onclick="scrollToSection('snacks',this)">Snacks</div>
+    <div class="menu-tab" onclick="scrollToSection('addons',this)">Add-Ons</div>
     <div class="menu-tab" onclick="scrollToSection('egg',this)">Egg</div>
+    <div class="menu-tab" onclick="scrollToSection('nonveg-appetizers',this)">Non-Veg Apps</div>
+    <div class="menu-tab" onclick="scrollToSection('street-food',this)">Street Food</div>
+    <div class="menu-tab" onclick="scrollToSection('veg-mains',this)">Veg Mains</div>
+    <div class="menu-tab" onclick="scrollToSection('nonveg-mains',this)">Non-Veg Mains</div>
+    <div class="menu-tab" onclick="scrollToSection('rice-bowls',this)">Rice Bowls</div>
     <div class="menu-tab" onclick="scrollToSection('biryani',this)">Biryani</div>
-    <div class="menu-tab" onclick="scrollToSection('ricebowl',this)">Rice Bowl</div>
-    <div class="menu-tab" onclick="scrollToSection('breads',this)">Breads &amp; Rice</div>
+    <div class="menu-tab" onclick="scrollToSection('breads-rice',this)">Breads &amp; Rice</div>
     <div class="menu-tab" onclick="scrollToSection('sides',this)">Sides</div>
-    <div class="menu-tab" onclick="scrollToSection('dessert',this)">Dessert</div>
+    <div class="menu-tab" onclick="scrollToSection('juices-shakes',this)">Juices &amp; Shakes</div>
     <div class="menu-tab" onclick="scrollToSection('drinks',this)">Drinks</div>
+    <div class="menu-tab" onclick="scrollToSection('desserts',this)">Desserts</div>
   </div>
 </div>
 
 <main class="menu-body">
 
-  <!-- THALI -->
   <div class="menu-section rev" id="sec-thali">
-    <div class="menu-section-header">
-      <h2 class="menu-section-title">Thali &mdash; The Perfect Meal</h2>
-    </div>
+    <div class="menu-section-header"><h2 class="menu-section-title">Thali — The Perfect Meal</h2></div>
     <p style="color:var(--t3);font-size:.86rem;margin-bottom:1.3rem;font-style:italic;font-weight:300">A complete, balanced &amp; satisfying experience</p>
     <div class="thali-row">
-      <div class="thali-c">
-        <div class="thali-c-top veg">
-          <div class="thali-c-pop">Popular</div>
-          <div class="thali-c-type">Vegetarian</div>
-          <div class="thali-c-name">Veg Thali</div>
-          <div class="thali-c-price">$15.99</div>
-        </div>
-        <div class="thali-c-body">
-          <div class="thali-c-label">Includes</div>
-          <ul class="thali-c-list">
-            <li>Paneer Dish</li><li>Dal Makhani</li>
-            <li>Rice</li><li>Raita</li>
-            <li>Sweet Dish</li><li>Salad</li>
-            <li>Missi Roti</li><li>Tawa Roti</li>
-          </ul>
-        </div>
-      </div>
-      <div class="thali-c">
-        <div class="thali-c-top">
-          <div class="thali-c-pop">Popular</div>
-          <div class="thali-c-type">Non-Vegetarian</div>
-          <div class="thali-c-name">Non-Veg Thali</div>
-          <div class="thali-c-price">$20.99</div>
-        </div>
-        <div class="thali-c-body">
-          <div class="thali-c-label">Includes</div>
-          <ul class="thali-c-list">
-            <li>Chicken Curry</li><li>Dal Makhani</li>
-            <li>Rice</li><li>Raita</li>
-            <li>Sweet Dish</li><li>Salad</li>
-            <li>Missi Roti</li><li>Tawa Roti</li>
-          </ul>
-        </div>
-      </div>
+      <div class="thali-c"><div class="thali-c-top veg"><div class="thali-c-pop">Popular</div><div class="thali-c-type">Vegetarian</div><div class="thali-c-name">Veg Thali</div><div class="thali-c-price">$15.99</div></div><div class="thali-c-body"><div class="thali-c-label">Includes</div><ul class="thali-c-list"><li>Paneer Dish</li><li>Dal Makhani</li><li>Rice</li><li>Raita</li><li>Sweet Dish</li><li>Salad</li><li>Missi Roti</li><li>Tawa Roti</li></ul></div></div>
+      <div class="thali-c"><div class="thali-c-top"><div class="thali-c-pop">Popular</div><div class="thali-c-type">Non-Vegetarian</div><div class="thali-c-name">Non-Veg Thali</div><div class="thali-c-price">$20.99</div></div><div class="thali-c-body"><div class="thali-c-label">Includes</div><ul class="thali-c-list"><li>Chicken Curry</li><li>Dal Makhani</li><li>Rice</li><li>Raita</li><li>Sweet Dish</li><li>Salad</li><li>Missi Roti</li><li>Tawa Roti</li></ul></div></div>
     </div>
   </div>
 
-  <!-- STREET FOOD -->
-  <div class="menu-section rev" id="sec-street">
-    <div class="menu-section-header">
-      <h2 class="menu-section-title">Street Food &mdash; Chaat &amp; Snacks</h2>
-      <span class="menu-section-count">9 items</span>
-    </div>
-    <div class="items-list">
-      <div class="menu-item"><div class="menu-item-left"><div class="menu-item-name">Samosa Chaat</div><div class="menu-item-tags"><span class="mtag mtag-v">Veg</span></div></div><div class="menu-item-price">$9.99</div></div>
-      <div class="menu-item"><div class="menu-item-left"><div class="menu-item-name">Dahi Bhalla Chaat</div><div class="menu-item-tags"><span class="mtag mtag-v">Veg</span></div></div><div class="menu-item-price">$11.99</div></div>
-      <div class="menu-item"><div class="menu-item-left"><div class="menu-item-name">Tikki Chaat</div><div class="menu-item-tags"><span class="mtag mtag-v">Veg</span></div></div><div class="menu-item-price">$9.99</div></div>
-      <div class="menu-item"><div class="menu-item-left"><div class="menu-item-name">Mix Pakora</div><div class="menu-item-tags"><span class="mtag mtag-v">Veg</span></div></div><div class="menu-item-price">$9.99</div></div>
-      <div class="menu-item"><div class="menu-item-left"><div class="menu-item-name">Paneer Pakora</div><div class="menu-item-tags"><span class="mtag mtag-v">Veg</span></div></div><div class="menu-item-price">$14.99</div></div>
-      <div class="menu-item"><div class="menu-item-left"><div class="menu-item-name">Onion Rings</div><div class="menu-item-tags"><span class="mtag mtag-v">Veg</span></div></div><div class="menu-item-price">$9.99</div></div>
-      <div class="menu-item"><div class="menu-item-left"><div class="menu-item-name">Spring Roll</div><div class="menu-item-tags"><span class="mtag mtag-v">Veg</span></div></div><div class="menu-item-price">$9.99</div></div>
-      <div class="menu-item"><div class="menu-item-left"><div class="menu-item-name">French Fries</div><div class="menu-item-tags"><span class="mtag mtag-v">Veg</span></div></div><div class="menu-item-price">$9.99</div></div>
-      <div class="menu-item"><div class="menu-item-left"><div class="menu-item-name">Paneer Tikka</div><div class="menu-item-tags"><span class="mtag mtag-v">Veg</span><span class="mtag mtag-p">Popular</span></div></div><div class="menu-item-price">$16.99</div></div>
-    </div>
-  </div>
-
-  <!-- BREAKFAST -->
   <div class="menu-section rev" id="sec-breakfast">
-    <div class="menu-section-header">
-      <h2 class="menu-section-title">Breakfast Combos</h2>
-    </div>
-    <div class="combo-row">
-      <div class="combo-c"><div class="combo-c-name">Any Parantha Combo</div><div class="combo-c-desc">Aloo / Gobhi / Paneer / Mix / Methi &bull; 1 Parantha + Curd + Butter + Pickle</div><div class="combo-c-price">$12.99</div></div>
-      <div class="combo-c"><div class="combo-c-name">Chole Puri Combo</div><div class="combo-c-desc">2 Puri + Chickpeas &mdash; a hearty Punjabi breakfast classic</div><div class="combo-c-price">$14.99</div></div>
-      <div class="combo-c"><div class="combo-c-name">Aloo Kulcha Combo</div><div class="combo-c-desc">1 Kulcha + Raita + Chana &mdash; simple and satisfying</div><div class="combo-c-price">$14.99</div></div>
-      <div class="combo-c"><div class="combo-c-name">Chana Bhatura Combo</div><div class="combo-c-desc">2 Bhatura + Chana + Raita &mdash; the ultimate Punjabi combo</div><div class="combo-c-price">$14.99</div></div>
-    </div>
-    <div style="margin-top:1.2rem">
-      <p style="font-size:.8rem;color:var(--t3);margin-bottom:.8rem;font-weight:500;letter-spacing:.05em;text-transform:uppercase">Individual Add-Ons</p>
-      <div class="items-list">
-        <div class="menu-item"><div class="menu-item-left"><div class="menu-item-name">Single Parantha (Aloo / Gobhi / Paneer / Mix)</div></div><div class="menu-item-price">$7.99</div></div>
-        <div class="menu-item"><div class="menu-item-left"><div class="menu-item-name">Single Puri</div></div><div class="menu-item-price">$4.99</div></div>
-        <div class="menu-item"><div class="menu-item-left"><div class="menu-item-name">Single Bhatura</div></div><div class="menu-item-price">$4.99</div></div>
-        <div class="menu-item"><div class="menu-item-left"><div class="menu-item-name">Single Kulcha</div></div><div class="menu-item-price">$7.99</div></div>
-      </div>
+    <div class="menu-section-header"><h2 class="menu-section-title">Breakfast Combos</h2><span class="menu-section-count">4 items</span></div>
+    <div class="items-list">
+      <div class="menu-item"><div class="menu-item-left"><div class="menu-item-name">Any Parantha Combo</div><div class="menu-item-desc">Aloo / Gobhi / Paneer / Mix / Methi</div></div><div class="menu-item-price">$12.99</div></div>
+      <div class="menu-item"><div class="menu-item-left"><div class="menu-item-name">Chole Puri Combo</div><div class="menu-item-desc">Chana + raita + 2 puris</div></div><div class="menu-item-price">$14.99</div></div>
+      <div class="menu-item"><div class="menu-item-left"><div class="menu-item-name">Amritsari Kulcha Combo</div><div class="menu-item-desc">Chana + raita + aloo kulcha</div></div><div class="menu-item-price">$14.99</div></div>
+      <div class="menu-item"><div class="menu-item-left"><div class="menu-item-name">Chana Bhatura Combo</div><div class="menu-item-desc">Chana + raita + 2 bhatura</div></div><div class="menu-item-price">$14.99</div></div>
     </div>
   </div>
 
-  <!-- VEGETARIAN -->
-  <div class="menu-section rev" id="sec-veg">
-    <div class="menu-section-header">
-      <h2 class="menu-section-title">Vegetarian Classics</h2>
-      <span class="menu-section-count">14 items</span>
-    </div>
+  <div class="menu-section rev" id="sec-addons">
+    <div class="menu-section-header"><h2 class="menu-section-title">Add Ons</h2><span class="menu-section-count">4 items</span></div>
     <div class="items-list">
-      <div class="menu-item"><div class="menu-item-left"><div class="menu-item-name">Rajma</div><div class="menu-item-tags"><span class="mtag mtag-v">Veg</span></div></div><div class="menu-item-price">$16.99</div></div>
-      <div class="menu-item"><div class="menu-item-left"><div class="menu-item-name">Kadhi Pakora</div><div class="menu-item-tags"><span class="mtag mtag-v">Veg</span></div></div><div class="menu-item-price">$16.99</div></div>
-      <div class="menu-item"><div class="menu-item-left"><div class="menu-item-name">Chana Masala</div><div class="menu-item-tags"><span class="mtag mtag-v">Veg</span></div></div><div class="menu-item-price">$16.99</div></div>
-      <div class="menu-item"><div class="menu-item-left"><div class="menu-item-name">Dal Makhani</div><div class="menu-item-tags"><span class="mtag mtag-v">Veg</span><span class="mtag mtag-p">Popular</span></div></div><div class="menu-item-price">$16.99</div></div>
-      <div class="menu-item"><div class="menu-item-left"><div class="menu-item-name">Yellow Dal Tadka</div><div class="menu-item-tags"><span class="mtag mtag-v">Veg</span></div></div><div class="menu-item-price">$16.99</div></div>
-      <div class="menu-item"><div class="menu-item-left"><div class="menu-item-name">Bhindi Masala</div><div class="menu-item-tags"><span class="mtag mtag-v">Veg</span></div></div><div class="menu-item-price">$16.99</div></div>
-      <div class="menu-item"><div class="menu-item-left"><div class="menu-item-name">Sarso da Saag</div><div class="menu-item-tags"><span class="mtag mtag-v">Veg</span></div></div><div class="menu-item-price">$16.99</div></div>
-      <div class="menu-item"><div class="menu-item-left"><div class="menu-item-name">Kadhai Paneer</div><div class="menu-item-tags"><span class="mtag mtag-v">Veg</span><span class="mtag mtag-p">Popular</span></div></div><div class="menu-item-price">$17.99</div></div>
-      <div class="menu-item"><div class="menu-item-left"><div class="menu-item-name">Shahi Paneer</div><div class="menu-item-tags"><span class="mtag mtag-v">Veg</span></div></div><div class="menu-item-price">$17.99</div></div>
-      <div class="menu-item"><div class="menu-item-left"><div class="menu-item-name">Palak Paneer</div><div class="menu-item-tags"><span class="mtag mtag-v">Veg</span></div></div><div class="menu-item-price">$17.99</div></div>
-      <div class="menu-item"><div class="menu-item-left"><div class="menu-item-name">Matar Paneer</div><div class="menu-item-tags"><span class="mtag mtag-v">Veg</span></div></div><div class="menu-item-price">$17.99</div></div>
-      <div class="menu-item"><div class="menu-item-left"><div class="menu-item-name">Soya Chaap</div><div class="menu-item-tags"><span class="mtag mtag-v">Veg</span></div></div><div class="menu-item-price">$17.99</div></div>
-      <div class="menu-item"><div class="menu-item-left"><div class="menu-item-name">Mix Veg</div><div class="menu-item-tags"><span class="mtag mtag-v">Veg</span></div></div><div class="menu-item-price">$17.99</div></div>
-      <div class="menu-item"><div class="menu-item-left"><div class="menu-item-name">Paneer Bhurji</div><div class="menu-item-tags"><span class="mtag mtag-v">Veg</span></div></div><div class="menu-item-price">$19.99</div></div>
+      <div class="menu-item"><div class="menu-item-left"><div class="menu-item-name">Single Parantha</div><div class="menu-item-desc">Aloo / Gobhi / Paneer / Mix / Methi</div></div><div class="menu-item-price">$7.99</div></div>
+      <div class="menu-item"><div class="menu-item-left"><div class="menu-item-name">Single Puri</div></div><div class="menu-item-price">$4.99</div></div>
+      <div class="menu-item"><div class="menu-item-left"><div class="menu-item-name">Single Bhatura</div></div><div class="menu-item-price">$4.99</div></div>
+      <div class="menu-item"><div class="menu-item-left"><div class="menu-item-name">Single Kulcha</div></div><div class="menu-item-price">$7.99</div></div>
     </div>
   </div>
 
-  <!-- NON-VEG SPECIALTIES -->
-  <div class="menu-section rev" id="sec-nonveg">
-    <div class="menu-section-header">
-      <h2 class="menu-section-title">Non-Veg Specialties</h2>
-    </div>
+  <div class="menu-section rev" id="sec-egg">
+    <div class="menu-section-header"><h2 class="menu-section-title">Egg Specialties</h2><span class="menu-section-count">2 items</span></div>
     <div class="items-list">
-      <div class="menu-item"><div class="menu-item-left"><div class="menu-item-name">Butter Chicken</div><div class="menu-item-tags"><span class="mtag mtag-p">Popular</span></div></div><div class="menu-item-price">$17.99</div></div>
-      <div class="menu-item"><div class="menu-item-left"><div class="menu-item-name">Chicken Curry</div></div><div class="menu-item-price">$17.99</div></div>
-      <div class="menu-item"><div class="menu-item-left"><div class="menu-item-name">Kadhai Chicken</div></div><div class="menu-item-price">$17.99</div></div>
-      <div class="menu-item"><div class="menu-item-left"><div class="menu-item-name">Goat Curry</div><div class="menu-item-tags"><span class="mtag mtag-p">Popular</span></div></div><div class="menu-item-price">$20.99</div></div>
+      <div class="menu-item"><div class="menu-item-left"><div class="menu-item-name">Egg Omelette</div></div><div class="menu-item-price">$14.99</div></div>
+      <div class="menu-item"><div class="menu-item-left"><div class="menu-item-name">Egg Bhurji</div></div><div class="menu-item-price">$18.99</div></div>
     </div>
   </div>
 
-  <!-- NON-VEG SNACKS -->
-  <div class="menu-section rev" id="sec-snacks">
-    <div class="menu-section-header">
-      <h2 class="menu-section-title">Non-Veg Snacks</h2>
-    </div>
+  <div class="menu-section rev" id="sec-nonveg-appetizers">
+    <div class="menu-section-header"><h2 class="menu-section-title">Non-Veg Appetizers</h2><span class="menu-section-count">6 items</span></div>
     <div class="items-list">
-      <div class="menu-item"><div class="menu-item-left"><div class="menu-item-name">Chicken Wings</div><div class="menu-item-tags"><span class="mtag mtag-s">Spicy</span></div></div><div class="menu-item-price">$14.99</div></div>
+      <div class="menu-item"><div class="menu-item-left"><div class="menu-item-name">Chicken Wings</div></div><div class="menu-item-price">$14.99</div></div>
       <div class="menu-item"><div class="menu-item-left"><div class="menu-item-name">Chicken Nuggets</div></div><div class="menu-item-price">$11.99</div></div>
       <div class="menu-item"><div class="menu-item-left"><div class="menu-item-name">Chicken Fries</div></div><div class="menu-item-price">$11.99</div></div>
-      <div class="menu-item"><div class="menu-item-left"><div class="menu-item-name">Chicken Tikka</div><div class="menu-item-tags"><span class="mtag mtag-s">Spicy</span></div></div><div class="menu-item-price">$16.99</div></div>
-      <div class="menu-item"><div class="menu-item-left"><div class="menu-item-name">Chicken Tandoori</div><div class="menu-item-tags"><span class="mtag mtag-s">Spicy</span></div></div><div class="menu-item-price">$18.99</div></div>
-      <div class="menu-item"><div class="menu-item-left"><div class="menu-item-name">Chicken Kabab</div></div><div class="menu-item-price">$17.99</div></div>
+      <div class="menu-item"><div class="menu-item-left"><div class="menu-item-name">Chicken Tikka</div><div class="menu-item-desc">Grilled boneless chicken cubes</div></div><div class="menu-item-price">$17.99</div></div>
+      <div class="menu-item"><div class="menu-item-left"><div class="menu-item-name">Chicken Tandoori</div><div class="menu-item-desc">Bone-in tandoori style chicken</div></div><div class="menu-item-price">$18.99</div></div>
+      <div class="menu-item"><div class="menu-item-left"><div class="menu-item-name">Chicken Kebab</div><div class="menu-item-desc">Juicy seekh kebab</div></div><div class="menu-item-price">$18.99</div></div>
     </div>
   </div>
 
-  <!-- EGG -->
-  <div class="menu-section rev" id="sec-egg">
-    <div class="menu-section-header">
-      <h2 class="menu-section-title">Egg Specialties</h2>
-    </div>
+  <div class="menu-section rev" id="sec-street-food">
+    <div class="menu-section-header"><h2 class="menu-section-title">Street Food — Snacks</h2><span class="menu-section-count">14 items</span></div>
     <div class="items-list">
-      <div class="menu-item"><div class="menu-item-left"><div class="menu-item-name">Egg Bhurji</div></div><div class="menu-item-price">$16.99</div></div>
-      <div class="menu-item"><div class="menu-item-left"><div class="menu-item-name">Bread Omelette</div></div><div class="menu-item-price">$14.99</div></div>
+      <div class="menu-item"><div class="menu-item-left"><div class="menu-item-name">Samosa Chaat</div></div><div class="menu-item-price">$9.99</div></div>
+      <div class="menu-item"><div class="menu-item-left"><div class="menu-item-name">Dahi Bhalla Chaat</div></div><div class="menu-item-price">$11.99</div></div>
+      <div class="menu-item"><div class="menu-item-left"><div class="menu-item-name">Tikki Chaat</div></div><div class="menu-item-price">$9.99</div></div>
+      <div class="menu-item"><div class="menu-item-left"><div class="menu-item-name">Mix Pakora</div></div><div class="menu-item-price">$9.99</div></div>
+      <div class="menu-item"><div class="menu-item-left"><div class="menu-item-name">Paneer Pakora</div></div><div class="menu-item-price">$14.99</div></div>
+      <div class="menu-item"><div class="menu-item-left"><div class="menu-item-name">Onion Rings</div></div><div class="menu-item-price">$9.99</div></div>
+      <div class="menu-item"><div class="menu-item-left"><div class="menu-item-name">Veg Spring Roll</div></div><div class="menu-item-price">$9.99</div></div>
+      <div class="menu-item"><div class="menu-item-left"><div class="menu-item-name">French Fries</div></div><div class="menu-item-price">$9.99</div></div>
+      <div class="menu-item"><div class="menu-item-left"><div class="menu-item-name">Paneer Tikka</div></div><div class="menu-item-price">$17.99</div></div>
+      <div class="menu-item"><div class="menu-item-left"><div class="menu-item-name">Veg Samosa Combo (3 pcs)</div></div><div class="menu-item-price">$9.99</div></div>
+      <div class="menu-item"><div class="menu-item-left"><div class="menu-item-name">Chicken Samosa Combo (2 pcs)</div></div><div class="menu-item-price">$14.99</div></div>
+      <div class="menu-item"><div class="menu-item-left"><div class="menu-item-name">Bread Pakora (2 pcs)</div></div><div class="menu-item-price">$11.99</div></div>
+      <div class="menu-item"><div class="menu-item-left"><div class="menu-item-name">Kurkure Noodle Spring Roll</div></div><div class="menu-item-price">$14.99</div></div>
+      <div class="menu-item"><div class="menu-item-left"><div class="menu-item-name">Kurkure Momos</div></div><div class="menu-item-price">$14.99</div></div>
     </div>
   </div>
 
-  <!-- BIRYANI -->
+  <div class="menu-section rev" id="sec-veg-mains">
+    <div class="menu-section-header"><h2 class="menu-section-title">Vegetarian Mains</h2><span class="menu-section-count">14 items</span></div>
+    <div class="items-list">
+      <div class="menu-item"><div class="menu-item-left"><div class="menu-item-name">Rajma</div><div class="menu-item-desc">Red kidney beans cooked in rich onion &amp; tomato gravy</div></div><div class="menu-item-price">$17.99</div></div>
+      <div class="menu-item"><div class="menu-item-left"><div class="menu-item-name">Kadhi Pakora</div><div class="menu-item-desc">Yoghurt curry with chickpea flour pakoras</div></div><div class="menu-item-price">$17.99</div></div>
+      <div class="menu-item"><div class="menu-item-left"><div class="menu-item-name">Chana Masala</div><div class="menu-item-desc">Chickpeas in spiced onion &amp; tomato gravy</div></div><div class="menu-item-price">$17.99</div></div>
+      <div class="menu-item"><div class="menu-item-left"><div class="menu-item-name">Dal Makhani</div><div class="menu-item-desc">Creamy black lentils</div></div><div class="menu-item-price">$17.99</div></div>
+      <div class="menu-item"><div class="menu-item-left"><div class="menu-item-name">Yellow Dal Tadka</div><div class="menu-item-desc">Yellow lentils tempered with spices</div></div><div class="menu-item-price">$17.99</div></div>
+      <div class="menu-item"><div class="menu-item-left"><div class="menu-item-name">Bhindi Masala</div><div class="menu-item-desc">Okra cooked with spices</div></div><div class="menu-item-price">$17.99</div></div>
+      <div class="menu-item"><div class="menu-item-left"><div class="menu-item-name">Sarson Da Saag</div><div class="menu-item-desc">Mustard greens cooked with spices</div></div><div class="menu-item-price">$17.99</div></div>
+      <div class="menu-item"><div class="menu-item-left"><div class="menu-item-name">Kadhai Paneer</div><div class="menu-item-desc">Paneer cooked with peppers and onions</div></div><div class="menu-item-price">$18.99</div></div>
+      <div class="menu-item"><div class="menu-item-left"><div class="menu-item-name">Shahi Paneer</div><div class="menu-item-desc">Paneer in creamy tomato gravy</div></div><div class="menu-item-price">$18.99</div></div>
+      <div class="menu-item"><div class="menu-item-left"><div class="menu-item-name">Palak Paneer</div><div class="menu-item-desc">Paneer in spinach gravy</div></div><div class="menu-item-price">$18.99</div></div>
+      <div class="menu-item"><div class="menu-item-left"><div class="menu-item-name">Matar Paneer</div><div class="menu-item-desc">Paneer with green peas in creamy gravy</div></div><div class="menu-item-price">$18.99</div></div>
+      <div class="menu-item"><div class="menu-item-left"><div class="menu-item-name">Soya Chaap</div><div class="menu-item-desc">Soya chaap in spiced gravy</div></div><div class="menu-item-price">$18.99</div></div>
+      <div class="menu-item"><div class="menu-item-left"><div class="menu-item-name">Mix Veg</div><div class="menu-item-desc">Spiced mixed vegetables</div></div><div class="menu-item-price">$18.99</div></div>
+      <div class="menu-item"><div class="menu-item-left"><div class="menu-item-name">Paneer Bhurji</div><div class="menu-item-desc">Crumbled paneer with spices, onion &amp; tomato</div></div><div class="menu-item-price">$20.99</div></div>
+    </div>
+  </div>
+
+  <div class="menu-section rev" id="sec-nonveg-mains">
+    <div class="menu-section-header"><h2 class="menu-section-title">Non-Veg Mains</h2><span class="menu-section-count">4 items</span></div>
+    <div class="items-list">
+      <div class="menu-item"><div class="menu-item-left"><div class="menu-item-name">Butter Chicken</div><div class="menu-item-desc">Boneless chicken in creamy onion tomato gravy</div></div><div class="menu-item-price">$18.99</div></div>
+      <div class="menu-item"><div class="menu-item-left"><div class="menu-item-name">Chicken Curry</div><div class="menu-item-desc">Bone-in chicken in homestyle curry</div></div><div class="menu-item-price">$18.99</div></div>
+      <div class="menu-item"><div class="menu-item-left"><div class="menu-item-name">Kadhai Chicken</div><div class="menu-item-desc">Chicken cooked with peppers &amp; onions in tomato gravy</div></div><div class="menu-item-price">$18.99</div></div>
+      <div class="menu-item"><div class="menu-item-left"><div class="menu-item-name">Goat Curry</div><div class="menu-item-desc">Goat cooked in spiced onion tomato gravy</div></div><div class="menu-item-price">$21.99</div></div>
+    </div>
+  </div>
+
+  <div class="menu-section rev" id="sec-rice-bowls">
+    <div class="menu-section-header"><h2 class="menu-section-title">Rice Bowls</h2><span class="menu-section-count">8 items</span></div>
+    <div class="items-list">
+      <div class="menu-item"><div class="menu-item-left"><div class="menu-item-name">Rajma Rice</div></div><div class="menu-item-price">$14.99</div></div>
+      <div class="menu-item"><div class="menu-item-left"><div class="menu-item-name">Chole Rice</div></div><div class="menu-item-price">$14.99</div></div>
+      <div class="menu-item"><div class="menu-item-left"><div class="menu-item-name">Kadhi Rice</div></div><div class="menu-item-price">$14.99</div></div>
+      <div class="menu-item"><div class="menu-item-left"><div class="menu-item-name">Dal Rice</div></div><div class="menu-item-price">$14.99</div></div>
+      <div class="menu-item"><div class="menu-item-left"><div class="menu-item-name">Chicken Curry Rice</div></div><div class="menu-item-price">$17.99</div></div>
+      <div class="menu-item"><div class="menu-item-left"><div class="menu-item-name">Butter Chicken Rice</div></div><div class="menu-item-price">$17.99</div></div>
+      <div class="menu-item"><div class="menu-item-left"><div class="menu-item-name">Kadhai Chicken Rice</div></div><div class="menu-item-price">$17.99</div></div>
+      <div class="menu-item"><div class="menu-item-left"><div class="menu-item-name">Goat Curry Rice</div></div><div class="menu-item-price">$20.99</div></div>
+    </div>
+  </div>
+
   <div class="menu-section rev" id="sec-biryani">
-    <div class="menu-section-header">
-      <h2 class="menu-section-title">Biryani</h2>
-    </div>
+    <div class="menu-section-header"><h2 class="menu-section-title">Biryani</h2><span class="menu-section-count">3 items</span></div>
     <div class="items-list">
-      <div class="menu-item"><div class="menu-item-left"><div class="menu-item-name">Veg Biryani</div><div class="menu-item-tags"><span class="mtag mtag-v">Veg</span></div></div><div class="menu-item-price">$16.99</div></div>
-      <div class="menu-item"><div class="menu-item-left"><div class="menu-item-name">Chicken Biryani</div><div class="menu-item-tags"><span class="mtag mtag-p">Popular</span></div></div><div class="menu-item-price">$17.99</div></div>
-      <div class="menu-item"><div class="menu-item-left"><div class="menu-item-name">Goat Biryani</div></div><div class="menu-item-price">$19.99</div></div>
+      <div class="menu-item"><div class="menu-item-left"><div class="menu-item-name">Veg Biryani</div></div><div class="menu-item-price">$17.99</div></div>
+      <div class="menu-item"><div class="menu-item-left"><div class="menu-item-name">Chicken Biryani</div></div><div class="menu-item-price">$18.99</div></div>
+      <div class="menu-item"><div class="menu-item-left"><div class="menu-item-name">Goat Biryani</div></div><div class="menu-item-price">$21.99</div></div>
     </div>
   </div>
 
-  <!-- RICE BOWL -->
-  <div class="menu-section rev" id="sec-ricebowl">
-    <div class="menu-section-header">
-      <h2 class="menu-section-title">Rice Bowl</h2>
-      <span class="menu-section-count">8 items</span>
-    </div>
+  <div class="menu-section rev" id="sec-breads-rice">
+    <div class="menu-section-header"><h2 class="menu-section-title">Breads &amp; Rice</h2><span class="menu-section-count">10 items</span></div>
     <div class="items-list">
-      <div class="menu-item"><div class="menu-item-left"><div class="menu-item-name">Rajma Rice</div><div class="menu-item-tags"><span class="mtag mtag-v">Veg</span></div></div><div class="menu-item-price">$14.99</div></div>
-      <div class="menu-item"><div class="menu-item-left"><div class="menu-item-name">Chole Rice</div><div class="menu-item-tags"><span class="mtag mtag-v">Veg</span></div></div><div class="menu-item-price">$14.99</div></div>
-      <div class="menu-item"><div class="menu-item-left"><div class="menu-item-name">Kadhi Rice</div><div class="menu-item-tags"><span class="mtag mtag-v">Veg</span></div></div><div class="menu-item-price">$14.99</div></div>
-      <div class="menu-item"><div class="menu-item-left"><div class="menu-item-name">Dal Rice</div><div class="menu-item-tags"><span class="mtag mtag-v">Veg</span></div></div><div class="menu-item-price">$14.99</div></div>
-      <div class="menu-item"><div class="menu-item-left"><div class="menu-item-name">Chicken Curry Rice</div></div><div class="menu-item-price">$16.99</div></div>
-      <div class="menu-item"><div class="menu-item-left"><div class="menu-item-name">Butter Chicken Rice</div><div class="menu-item-tags"><span class="mtag mtag-p">Popular</span></div></div><div class="menu-item-price">$16.99</div></div>
-      <div class="menu-item"><div class="menu-item-left"><div class="menu-item-name">Kadhai Chicken Rice</div></div><div class="menu-item-price">$16.99</div></div>
-      <div class="menu-item"><div class="menu-item-left"><div class="menu-item-name">Goat Curry Rice</div></div><div class="menu-item-price">$18.99</div></div>
+      <div class="menu-item"><div class="menu-item-left"><div class="menu-item-name">Tawa Roti</div></div><div class="menu-item-price">$2.99</div></div>
+      <div class="menu-item"><div class="menu-item-left"><div class="menu-item-name">Tandoori Roti</div></div><div class="menu-item-price">$3.99</div></div>
+      <div class="menu-item"><div class="menu-item-left"><div class="menu-item-name">Butter Naan</div></div><div class="menu-item-price">$4.99</div></div>
+      <div class="menu-item"><div class="menu-item-left"><div class="menu-item-name">Garlic Naan</div></div><div class="menu-item-price">$5.99</div></div>
+      <div class="menu-item"><div class="menu-item-left"><div class="menu-item-name">Lachha Paratha</div></div><div class="menu-item-price">$7.99</div></div>
+      <div class="menu-item"><div class="menu-item-left"><div class="menu-item-name">Missi Roti</div></div><div class="menu-item-price">$3.99</div></div>
+      <div class="menu-item"><div class="menu-item-left"><div class="menu-item-name">Makki Roti</div></div><div class="menu-item-price">$4.99</div></div>
+      <div class="menu-item"><div class="menu-item-left"><div class="menu-item-name">Plain Rice</div></div><div class="menu-item-price">$5.99</div></div>
+      <div class="menu-item"><div class="menu-item-left"><div class="menu-item-name">Jeera Rice</div></div><div class="menu-item-price">$6.99</div></div>
+      <div class="menu-item"><div class="menu-item-left"><div class="menu-item-name">Veg Pulao</div></div><div class="menu-item-price">$14.99</div></div>
     </div>
   </div>
 
-  <!-- BREADS & RICE -->
-  <div class="menu-section rev" id="sec-breads">
-    <div class="menu-section-header">
-      <h2 class="menu-section-title">Breads &amp; Rice</h2>
-      <span class="menu-section-count">10 items</span>
-    </div>
-    <div class="items-list">
-      <div class="menu-item"><div class="menu-item-left"><div class="menu-item-name">Tawa Roti</div><div class="menu-item-tags"><span class="mtag mtag-v">Veg</span></div></div><div class="menu-item-price">$2.49</div></div>
-      <div class="menu-item"><div class="menu-item-left"><div class="menu-item-name">Tandoori Roti</div><div class="menu-item-tags"><span class="mtag mtag-v">Veg</span></div></div><div class="menu-item-price">$3.99</div></div>
-      <div class="menu-item"><div class="menu-item-left"><div class="menu-item-name">Butter Naan</div><div class="menu-item-tags"><span class="mtag mtag-v">Veg</span></div></div><div class="menu-item-price">$4.99</div></div>
-      <div class="menu-item"><div class="menu-item-left"><div class="menu-item-name">Garlic Naan</div><div class="menu-item-tags"><span class="mtag mtag-v">Veg</span></div></div><div class="menu-item-price">$5.99</div></div>
-      <div class="menu-item"><div class="menu-item-left"><div class="menu-item-name">Laccha Paratha</div><div class="menu-item-tags"><span class="mtag mtag-v">Veg</span></div></div><div class="menu-item-price">$7.99</div></div>
-      <div class="menu-item"><div class="menu-item-left"><div class="menu-item-name">Missi Roti</div><div class="menu-item-tags"><span class="mtag mtag-v">Veg</span></div></div><div class="menu-item-price">$3.99</div></div>
-      <div class="menu-item"><div class="menu-item-left"><div class="menu-item-name">Makki Ki Roti</div><div class="menu-item-tags"><span class="mtag mtag-v">Veg</span></div></div><div class="menu-item-price">$4.99</div></div>
-      <div class="menu-item"><div class="menu-item-left"><div class="menu-item-name">Plain Rice</div><div class="menu-item-tags"><span class="mtag mtag-v">Veg</span></div></div><div class="menu-item-price">$5.99</div></div>
-      <div class="menu-item"><div class="menu-item-left"><div class="menu-item-name">Jeera Rice</div><div class="menu-item-tags"><span class="mtag mtag-v">Veg</span></div></div><div class="menu-item-price">$6.99</div></div>
-      <div class="menu-item"><div class="menu-item-left"><div class="menu-item-name">Veg Pulav</div><div class="menu-item-tags"><span class="mtag mtag-v">Veg</span></div></div><div class="menu-item-price">$11.99</div></div>
-    </div>
-  </div>
-
-  <!-- SIDES -->
   <div class="menu-section rev" id="sec-sides">
-    <div class="menu-section-header">
-      <h2 class="menu-section-title">Sides</h2>
-    </div>
+    <div class="menu-section-header"><h2 class="menu-section-title">Sides</h2><span class="menu-section-count">6 items</span></div>
     <div class="items-list">
-      <div class="menu-item"><div class="menu-item-left"><div class="menu-item-name">Green Salad</div><div class="menu-item-tags"><span class="mtag mtag-v">Veg</span></div></div><div class="menu-item-price">$6.99</div></div>
-      <div class="menu-item"><div class="menu-item-left"><div class="menu-item-name">Plain Dahi</div><div class="menu-item-tags"><span class="mtag mtag-v">Veg</span></div></div><div class="menu-item-price">$4.99</div></div>
-      <div class="menu-item"><div class="menu-item-left"><div class="menu-item-name">Mix Raita</div><div class="menu-item-tags"><span class="mtag mtag-v">Veg</span></div></div><div class="menu-item-price">$6.99</div></div>
+      <div class="menu-item"><div class="menu-item-left"><div class="menu-item-name">Onion Salad</div></div><div class="menu-item-price">$4.99</div></div>
+      <div class="menu-item"><div class="menu-item-left"><div class="menu-item-name">Sirka Onion</div></div><div class="menu-item-price">$4.99</div></div>
+      <div class="menu-item"><div class="menu-item-left"><div class="menu-item-name">Green Salad</div></div><div class="menu-item-price">$6.99</div></div>
+      <div class="menu-item"><div class="menu-item-left"><div class="menu-item-name">Plain Dahi</div></div><div class="menu-item-price">$4.99</div></div>
+      <div class="menu-item"><div class="menu-item-left"><div class="menu-item-name">Raita</div></div><div class="menu-item-price">$6.99</div></div>
+      <div class="menu-item"><div class="menu-item-left"><div class="menu-item-name">Papad (3)</div></div><div class="menu-item-price">$4.99</div></div>
     </div>
   </div>
 
-  <!-- DESSERT -->
-  <div class="menu-section rev" id="sec-dessert">
-    <div class="menu-section-header">
-      <h2 class="menu-section-title">Dessert</h2>
-    </div>
-    <div class="items-list">
-      <div class="menu-item"><div class="menu-item-left"><div class="menu-item-name">Gulab Jamun (2 pcs)</div><div class="menu-item-tags"><span class="mtag mtag-v">Veg</span><span class="mtag mtag-p">Popular</span></div></div><div class="menu-item-price">$4.99</div></div>
-      <div class="menu-item"><div class="menu-item-left"><div class="menu-item-name">Rasmalai (2 pcs)</div><div class="menu-item-tags"><span class="mtag mtag-v">Veg</span></div></div><div class="menu-item-price">$4.99</div></div>
-      <div class="menu-item"><div class="menu-item-left"><div class="menu-item-name">Kulfi</div><div class="menu-item-tags"><span class="mtag mtag-v">Veg</span></div></div><div class="menu-item-price">$4.99</div></div>
-      <div class="menu-item"><div class="menu-item-left"><div class="menu-item-name">Matka Kulfi</div><div class="menu-item-tags"><span class="mtag mtag-v">Veg</span></div></div><div class="menu-item-price">$6.99</div></div>
-    </div>
-  </div>
-
-  <!-- JUICES & DRINKS -->
-  <div class="menu-section rev" id="sec-drinks">
-    <div class="menu-section-header">
-      <h2 class="menu-section-title">Fresh Juices, Shakes &amp; Drinks</h2>
-      <span class="menu-section-count">13 items</span>
-    </div>
+  <div class="menu-section rev" id="sec-juices-shakes">
+    <div class="menu-section-header"><h2 class="menu-section-title">Fresh Juices &amp; Shakes</h2><span class="menu-section-count">7 items</span></div>
     <div class="items-list">
       <div class="menu-item"><div class="menu-item-left"><div class="menu-item-name">Orange Juice</div></div><div class="menu-item-price">$11.99</div></div>
       <div class="menu-item"><div class="menu-item-left"><div class="menu-item-name">Pineapple Juice</div></div><div class="menu-item-price">$11.99</div></div>
       <div class="menu-item"><div class="menu-item-left"><div class="menu-item-name">Carrot Juice</div></div><div class="menu-item-price">$11.99</div></div>
       <div class="menu-item"><div class="menu-item-left"><div class="menu-item-name">Apple Juice</div></div><div class="menu-item-price">$11.99</div></div>
       <div class="menu-item"><div class="menu-item-left"><div class="menu-item-name">Mix Fruit Juice</div></div><div class="menu-item-price">$11.99</div></div>
-      <div class="menu-item"><div class="menu-item-left"><div class="menu-item-name">Mango Shake</div><div class="menu-item-tags"><span class="mtag mtag-p">Popular</span></div></div><div class="menu-item-price">$11.99</div></div>
+      <div class="menu-item"><div class="menu-item-left"><div class="menu-item-name">Mango Shake</div></div><div class="menu-item-price">$11.99</div></div>
       <div class="menu-item"><div class="menu-item-left"><div class="menu-item-name">Banana Shake</div></div><div class="menu-item-price">$11.99</div></div>
-      <div class="menu-item"><div class="menu-item-left"><div class="menu-item-name">Mango Lassi</div><div class="menu-item-tags"><span class="mtag mtag-p">Popular</span></div></div><div class="menu-item-price">$6.99</div></div>
+    </div>
+  </div>
+
+  <div class="menu-section rev" id="sec-drinks">
+    <div class="menu-section-header"><h2 class="menu-section-title">Drinks</h2><span class="menu-section-count">7 items</span></div>
+    <div class="items-list">
+      <div class="menu-item"><div class="menu-item-left"><div class="menu-item-name">Mango Lassi</div></div><div class="menu-item-price">$6.99</div></div>
       <div class="menu-item"><div class="menu-item-left"><div class="menu-item-name">Sweet Lassi</div></div><div class="menu-item-price">$5.99</div></div>
       <div class="menu-item"><div class="menu-item-left"><div class="menu-item-name">Salted Lassi</div></div><div class="menu-item-price">$5.99</div></div>
       <div class="menu-item"><div class="menu-item-left"><div class="menu-item-name">Masala Tea</div></div><div class="menu-item-price">$3.99</div></div>
       <div class="menu-item"><div class="menu-item-left"><div class="menu-item-name">Coffee</div></div><div class="menu-item-price">$4.99</div></div>
       <div class="menu-item"><div class="menu-item-left"><div class="menu-item-name">Pop Can</div></div><div class="menu-item-price">$2.99</div></div>
+      <div class="menu-item"><div class="menu-item-left"><div class="menu-item-name">Lemon Soda</div></div><div class="menu-item-price">$9.99</div></div>
+    </div>
+  </div>
+
+  <div class="menu-section rev" id="sec-desserts">
+    <div class="menu-section-header"><h2 class="menu-section-title">Desserts</h2><span class="menu-section-count">4 items</span></div>
+    <div class="items-list">
+      <div class="menu-item"><div class="menu-item-left"><div class="menu-item-name">Gulab Jamun (2)</div></div><div class="menu-item-price">$4.99</div></div>
+      <div class="menu-item"><div class="menu-item-left"><div class="menu-item-name">Rasmalai (2)</div></div><div class="menu-item-price">$4.99</div></div>
+      <div class="menu-item"><div class="menu-item-left"><div class="menu-item-name">Kulfi</div></div><div class="menu-item-price">$4.99</div></div>
+      <div class="menu-item"><div class="menu-item-left"><div class="menu-item-name">Matka Kulfi</div></div><div class="menu-item-price">$6.99</div></div>
     </div>
   </div>
 
